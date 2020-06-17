@@ -36,6 +36,7 @@
               <th>Genre</th>
               <th>Start date</th>
               <th>End date</th>
+              <th>Action</th>
             </tr>
           </thead>
           <tbody>
@@ -46,6 +47,9 @@
               <td>Novel, Bildungsroman, Southern Gothic, Thriller, Domestic Fiction, Legal Story</td>
               <td>2011/04/25</td>
               <td>2011/04/31</td>
+              <td>
+                <button name="return" class="btn btn-success">Return</button>
+              </td>
             </tr>
           </tbody>
         </table>
