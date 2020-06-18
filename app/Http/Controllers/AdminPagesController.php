@@ -11,15 +11,15 @@ class AdminPagesController extends Controller
     }
 
     public function rent(){
-        return view('admin.rent_request');
+        return view('admin.requests.rent_request');
     }
 
     public function add(){
-        return view('admin.add');
+        return view('admin.books.add');
     }
 
     public function list(){
-        return view('admin.list_of_books');
+        return view('admin.books.list_of_books');
     }
 
     public function penalties(){

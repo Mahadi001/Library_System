@@ -14,8 +14,8 @@
               <th>Name</th>
               <th>Author</th>
               <th>Genre</th>
-              <th>Start date</th>
-              <th>End date</th>
+              <th>Language</th>
+              <th>Status</th>
               <th>Action</th>
             </tr>
           </thead>
@@ -25,11 +25,10 @@
               <td>To Kill a Mockingbird</td>
               <td>Harper Lee</td>
               <td>Novel, Bildungsroman, Southern Gothic, Thriller, Domestic Fiction, Legal Story</td>
-              <td>2011/04/25</td>
-              <td>2011/04/31</td>
+              <td>English</td>
+              <td><strong>Available</strong></td>
               <td>
                 <a class="btn btn-success" href="#" role="button">Edit</a>
-                <a class="btn btn-danger" href="#" role="button">Remove</a></td>
             </tr>
           </tbody>
         </table>
