@@ -26,3 +26,6 @@ Route::get('/admin/rent', 'AdminPagesController@rent')->name('rent');
 Route::get('/admin/add', 'AdminPagesController@add')->name('add');
 Route::get('/admin/list', 'AdminPagesController@list')->name('list');
 Route::get('/admin/penalties', 'AdminPagesController@penalties')->name('penalties');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
